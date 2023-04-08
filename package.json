@@ -1,7 +1,7 @@
 {
   "name": "aztro",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "private": true,
   "scripts": {
     "dev": "astro dev",
