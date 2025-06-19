@@ -1,0 +1,10 @@
+---
+import RootLayout from "./root-layout.astro";
+import Sidebar from "./sidebar";
+---
+
+<RootLayout>
+  <Sidebar client:load>
+    <slot />
+  </Sidebar>
+</RootLayout>
