@@ -19,5 +19,6 @@
     "autoprefixer": "^10.4.16",
     "cssnano": "^6.0.1",
     "sass": "^1.69.5"
-  }
+  },
+  "packageManager": "yarn@4.9.2"
 }
