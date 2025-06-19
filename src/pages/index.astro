@@ -1,17 +1,24 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Card from '../components/card/index.astro';
+import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Welcome to Astro.">
-	<main>
-		<h1>Welcome to <span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">Aztro</span></h1>
-		<p class="p-6 bg-white rounded-md mt-4 shadow-md">
-			To get started, open the directory <code>src/pages</code> in your project.<br />
-			<strong class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
-		</p>
-		<ul role="list" class="grid grid-cols-2 gap-4 mt-4">
-			<Card
+  <main>
+    <h1>
+      Welcome to <span
+        class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500"
+        >Aztro</span>
+    </h1>
+    <p class="p-6 bg-white rounded-md mt-4 shadow-md">
+      To get started, open the directory <code>src/pages</code> in your project.<br
+      />
+      <strong
+        class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500"
+        >Code Challenge:</strong
+      > Tweak the "Welcome to Astro" message above.
+    </p>
+    <ul role="list" class="grid grid-cols-2 gap-4 mt-4">
+      <!-- <Card
 				href="https://docs.astro.build/"
 				title="Documentation"
 				body="Learn how Astro works and explore the official API docs."
@@ -30,20 +37,20 @@ import Card from '../components/card/index.astro';
 				href="https://astro.build/chat/"
 				title="Community"
 				body="Come say hi to our amazing Discord community. ❤️"
-			/>
-		</ul>
-	</main>
+			/> -->
+    </ul>
+  </main>
 </Layout>
 
 <style>
-	main {
-		margin: auto;
-		padding: 1.5rem;
-		max-width: 60ch;
-	}
-	h1 {
-		font-size: 3rem;
-		font-weight: 800;
-		margin: 0;
-	}
+  main {
+    margin: auto;
+    padding: 1.5rem;
+    max-width: 60ch;
+  }
+  h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 0;
+  }
 </style>
